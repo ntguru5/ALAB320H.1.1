@@ -5,11 +5,10 @@ import EmployeePage from '../components/EmployeePage'
 function App() {
   return (
     <>
-  <div>
-    {/* <Homepage /> */}
-    <EmployeePage />
-  </div>
-
+    <div>
+        <Homepage />
+        <EmployeePage />
+    </div>
     </>
   )
 }

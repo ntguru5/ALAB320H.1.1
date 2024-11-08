@@ -1,27 +1,30 @@
 .header {
+  width: 100%;
   font-size: 1.5em;
   text-align: center;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+  padding: 1px;
+  border: 2px solid blue;
 }
 
 .search-bar {
   width: 100%;
-  padding: 8px;
+  padding: 5px;
   margin: 10px 0;
+  border: 2px solid green;
+  border-radius: 20px;;
 }
 
 .employee-list {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ddd;
+  border: 2px solid purple;
   padding: 10px;
 }
 
 .employee-list-item {
   display: flex;
   align-items: center;
-  border: 1px solid #ddd;
+  border: 2px solid red;
   padding: 10px;
   margin: 5px 0;
 }
@@ -32,6 +35,10 @@
   background-color: #ddd;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+.homepage {
+  padding: 20px;
 }
 
 .employee-page {
